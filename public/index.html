@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Informe {{fecha}}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+</head>
+<body style="font-family: 'Open Sans', sans-serif;">
+<div class="container">
+    <h1>Time Report - AireNetworks</h1>
+    <hr>
+    <h3>Diego Maroto</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Día</th>
+            <th>Tarea</th>
+            <th>Tiempo</th>
+            <th>Timestamp</th>
+            <th>Notas</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{lineas}}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

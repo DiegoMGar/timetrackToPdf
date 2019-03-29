@@ -1,0 +1,19 @@
+{
+  "fecha": "2019-03-29",
+  "lineas": [
+    {
+      "dia": "a",
+      "tarea": "b",
+      "tiempo": "c",
+      "timestamp": "d",
+      "notas": "e"
+    },
+    {
+      "dia": "ab",
+      "tarea": "bc",
+      "tiempo": "de",
+      "timestamp": "fg",
+      "notas": "hi"
+    }
+  ]
+}
